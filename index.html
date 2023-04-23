@@ -8,73 +8,85 @@
                  <title>CCVNE</title>
 </head>
 <body>
+
+                 <header>
+
+                 </header>
+
+                 <main>
+                                  <!--   VIDEO   -->
+                                  <video autoplay loop class="video-bg" muted plays-inline style="WIDTH: 100%;">
+                                                   <source src="./video/fundo3.mp4" type="video/mp4" width="50%">
+                                  </video>
+                                  
+                                  <div class="container" id="container">
+                                  
+                                                   <!-----------------ENTAR Formulario--------------------->  
+                                                   <div class="form-container sign-up-container">
+                                                                    <form action="" method="post">
+                                                                                     <h3>ENTAR</h3>
+                                                                                     
+                                                                                     <label for="iemail">Email </label>
+                                                                                     <input type="email" autocomplete="email" required id="iemail" placeholder="Digite o  Email Institucional">
+                                                                                     
+                                                                                     <label for="ipassword">Password</label>
+                                                                                     <input type="password" id="ipassword" required autocomplete="password" placeholder="digite a senha" id="password">
+                                                                                     
+                                                                                     <button>Entrar</button>
+                                                                    </form>
+                                                   </div>
+                                  
+                                                   <!-----------------REGISTAR Formulario--------------------->
+                                                   <div class="form-container sign-in-container">
+                                                                    <form  action="./administrador/adm.html"  method="post" autocomplete="on">
+                                                                                     <h3>REGISTAR</h3>
+                                                                                     
+                                                                                     <label for="username">Nome</label>
+                                                                                     <input type="text" placeholder="Digite o seu nome" id="nome">
+                                                                                     
+                                                                                     <label for="iemail">Email </label>
+                                                                                     <input type="email" autocomplete="email" required id="iemail" placeholder="Digite o  Email Institucional">
+                                                                                     
+                                                                                     <label for="ipassword">Password</label>
+                                                                                     <input type="password" id="ipassword" required autocomplete="password" placeholder="digite a senha" id="password">
+                                                                                     
+                                                                                     <button>Registar</button>
+                                                                    </form>
+                                                                    
+                                                   </div>
+                                  
+                                  
+                                                   <!-----------------MENSAGEM--------------------->
+                                                   <div class="overlay-container">
+                                                                    <div class="overlay">
+                                                                                     <div class="overlay-panel overlay-left">
+                                                                                                      <!--mensagem registar-->
+                                                                                                      <img src="images/ccvne2.png" alt="logotipo ccvne">
+                                                                                                      <h1>Bem-vindo</h1>
+                                                                                                      <p>Escrever alguma infomação importante para quem estiver a  visitar</p>
+                                                                                                      <button  class="ghost" id="signIn">REGISTAR</button>
+                                                                                     </div>
+
+                                                                                     <div class="overlay-panel overlay-right">
+                                                                                                        <!--mensagem entrar-->
+                                                                                                        <img src="images/ccvne2.png" alt="logotipo ccvne">
+                                                                                                      <h1>Bem-vindo</h1>
+                                                                                                      <p>Escrever alguma infomação importante para quem estiver a  visitar</p>
+                                                                                                      <button  class="ghost" id="signUp">ENTRAR</button>
+                                                                                     </div>
+                                                                    </div>
+                                                   </div>
+                                  </div>
+                 </main>
+
+               
+               
+                 <footer>
+
+                 </footer>
          
-         
-             <div class="container" id="container">
-         
-               <!-----------------ENTAR Formulario--------------------->  
-         
-               <div class="form-container sign-up-container">
-             <form action="./administrador/adm.html" method="post">
-                 <h3>ENTAR</h3>
-                 <label for="username">Email: </label>
-                 <input type="text" placeholder="Email ou Phone" id="username">
-         
-                 <label for="password">Password</label>
-                 <input type="password" placeholder="digite a senha" id="password">
-         
-                 <button>Entrar</button>
-             </form>
-           </div>
-         
-           <!-----------------REGISTAR Formulario--------------------->
-         
-           <div class="form-container sign-in-container">
-                 <form  action="./administrador/adm.html"  method="post">
-                 <h3>REGISTAR</h3>
-                 
-                 <label for="username">Nome: </label>
-                 <input type="text" placeholder="Nome" id="nome">
-                 
-                 <label for="username">Email: </label>
-                 <input type="text" placeholder="Email ou Phone" id="username">
-                 
-                 <label for="password">Password</label>
-                 <input type="password" placeholder="digite a senha" id="password">
-                 
-                 <button>Registar</button>
-           </form>
-                                           </form>
-         
-         
-         
-           <!-----------------MENSAGEM--------------------->
-                          </div>
-                          <div class="overlay-container">
-                                           <div class="overlay">
-                                                            <div class="overlay-panel overlay-left">
-                 <!--mensagem registar-->
-                                                                             <h1>Bem-vindo</h1>
-                                                                             <p>Escrever alguma infomação sobre o site para quem esta a visitar</p>
-                                                                             <button class="ghost" id="signIn">REGISTAR</button>
-                                                            </div>
-                                                            <div class="overlay-panel overlay-right">
-                <!--mensagem entrar-->
-                                                                             <h1>Bem-vindo</h1>
-                                                                             <p>Escrever alguma infomação sobre o site para quem esta a visitar</p>
-                                                                             <button class="ghost" id="signUp">ENTRAR</button>
-                                                            </div>
-                                           </div>
-                          </div>
-         </div>
-         
-         
-           </header>
-         </body>
-         </html>
-         
-         <!--  JAVASCRIPT -->
-         <script src="./JS/login.js"></script>
+                 <!--  JAVASCRIPT -->
+                 <script src="./JS/login.js"></script>
            
          </body>
          </html>
