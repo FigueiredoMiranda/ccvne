@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@media screen and (max-width: 857px) 
+{
+                 .container {
+                                  position: relative;
+                                  overflow: hidden;
+                                  width: 768px;
+                                  max-width: 100%;
+                                  min-height: 473px;
+                                  display: block;
+                                  left: 30%;
+                                 
+                                  transform: translate(-45%, 30%);
+                              }
+}
