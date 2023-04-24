@@ -113,7 +113,7 @@ button:hover {
 }
 
 button {
-    border-radius: 20px;
+    border-radius: 9px;
     border: 1px solid #cccccc;
     background-color: #cccccc;
     color: #FFFFFF;
@@ -274,7 +274,7 @@ button.ghost {
 {
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.7);
-    border-radius: 4px;
+    border-radius: 9px;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -293,12 +293,12 @@ button.ghost {
 
 button#signIn
 {
-    width: 14vw;
+    width: 20vw;
     height: 6vh;
 }
 button#signUp
 {
-    width: 14vw;
+    width: 20vw;
     height: 6vh;
 }
 

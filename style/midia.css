@@ -1,10 +1,10 @@
 @charset "utf-8";
 
-@media screen and (max-width: 857px) 
+@media screen and (max-width: 835px) 
 {
                  .container {
                                   position: relative;
-                                  overflow: hidden;
+                                  
                                   width: 768px;
                                   max-width: 68%;
                                   min-height: 473px;
@@ -14,6 +14,10 @@
                                  
                                   transform: translate(-55%, 30%);
                               }
+
+                              button {    margin-top: 34px;
+                                width: 71%;
+                                margin-left: 14%;}
 
                               form 
                               {
@@ -27,9 +31,23 @@
                                     height: 100%;
                                     width: 200%;
                                 }
+
+                                button#signUp {
+                                    width: 18vw;
+                                    height: 4vh;
+                                    margin-left:6%
+                                }
+
+                                button#signIn {
+                                    width: 18vw;
+                                    height: 4vh;
+                                    margin-left:6%
+                                }
+
+                                img {width: 38vw;}
 }
 
-@media screen and (max-width: 609px) 
+@media screen and (max-width: 628px) 
 {
                                 .container {
                                     width: 669px;
@@ -52,7 +70,8 @@
                                     width: 200%;
                                 }
 
-                                input {
+                                input
+                                 {
                                     display: block;
                                     height: 50px;
                                     width: 86%;
@@ -61,10 +80,29 @@
                                     padding: 15px 10px;
                                     margin-top: 8px;
                                     font-size: 12px;
-                                    font-weight: 200;}
+                                    font-weight: 200;
+                                }
 
-                                    label {
+                                    label 
+                                    {
                                         display: block;
                                         margin-top: 32px;
-                                        font-size: 13px;}
+                                        font-size: 13px;
+                                    }
+
+                                        button#signUp 
+                                        {
+                                            width: 25vw;
+                                            height: 4vh;
+                                        }
+        
+                                        button#signIn 
+                                        {
+                                            margin-left: -9px;
+                                            width: 25vw;
+                                            height: 4vh;
+                                        }
+
+                                img {width: 48vw;}
+
 }
