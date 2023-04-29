@@ -69,7 +69,7 @@
                                 img {width: 38vw;}
 }
 
-@media screen and (max-width: 320px) 
+@media screen and (max-width: 0px) 
 {
                                 .container {
                                     max-width: 62%;
